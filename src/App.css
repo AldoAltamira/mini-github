@@ -7,6 +7,13 @@
   pointer-events: none;
 }
 
+.github-logo {
+  height: 20vmin;
+  pointer-events: none;
+  margin: 4vh;
+  border-radius: 50%;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -26,6 +33,67 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.login-box {
+  background-color: white;
+  border-radius: 20px;
+  min-height: 60vh;
+  min-width: 40vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.user-info {
+  color: black;
+}
+
+.menu-root {
+  flex-grow: 1;
+}
+
+.menuButton {
+  margin-right: 20px;
+}
+
+.gridCard {
+  margin: 20px;
+  margin-top: 100px;
+}
+
+.hide {
+  display: none;
+}
+
+.drawer {
+  min-width: 260px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.commitList {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.listTitle {
+  color: white;
+  margin-top: 20px !important;
+  margin-bottom: 20px !important;
+}
+
+.card {
+ min-width: 500px; 
+}
+
+.cardTitle {
+  font-size: 14px;
 }
 
 @keyframes App-logo-spin {
